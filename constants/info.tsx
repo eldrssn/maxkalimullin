@@ -28,7 +28,7 @@ export const contacts = [
   },
   {
     title: 'Download CV',
-    href: 'https://drive.google.com/file/d/1AMAv8etU2CedCSGz_xfqk2RM2cL-zv8p/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1EM3kGoPRM3D0VXOMkc9m4Bcg_cnt50K4/view?usp=sharing',
   },
   {
     title: '+7 (999) 221-64-89',
