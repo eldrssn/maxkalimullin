@@ -2,7 +2,7 @@
 import Image from 'next/image';
 
 import { name } from 'constants/info';
-import profile from 'public/profile.webp';
+import photo from 'public/photo.jpg';
 
 import { JobIcon } from 'components/icons/JobIcon';
 import { LocationIcon } from 'components/icons/LocationIcon';
@@ -23,7 +23,7 @@ const Home = () => (
       <Image
         alt={name}
         className='mb-7 mr-7 rounded-full md:mb-0'
-        src={profile}
+        src={photo}
         placeholder='blur'
         width={150}
         priority
