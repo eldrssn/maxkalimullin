@@ -19,6 +19,7 @@ const Portfolio = () => (
               fill={true}
               alt={title}
               className='object-cover'
+              placeholder='blur'
             />
           </div>
 
