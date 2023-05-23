@@ -8,4 +8,7 @@ export const navItems = {
   '/experience': {
     name: 'experience',
   },
+  '/portfolio': {
+    name: 'portfolio',
+  },
 };
