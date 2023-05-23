@@ -32,7 +32,7 @@ export const contacts = [
   },
   {
     title: 'Download CV',
-    href: 'https://drive.google.com/file/d/1EM3kGoPRM3D0VXOMkc9m4Bcg_cnt50K4/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1TfFXEzflXeC236KpZW3beq4hS6E64Bnq/view?usp=sharing',
   },
   {
     title: '+7 (999) 221-64-89',
