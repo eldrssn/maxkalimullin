@@ -8,7 +8,7 @@ import NavItem from './NavItem';
 
 const NavBar = () => (
   <>
-    <aside className='md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 md:mt-6'>
+    <header className='md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 md:mt-6'>
       <div className='flex items-center justify-between lg:sticky lg:top-20 md:flex-col'>
         <LayoutGroup>
           <nav
@@ -23,7 +23,7 @@ const NavBar = () => (
           </nav>
         </LayoutGroup>
       </div>
-    </aside>
+    </header>
     <ThemeSwitcher />
   </>
 );

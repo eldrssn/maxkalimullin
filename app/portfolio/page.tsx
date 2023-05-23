@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import Experience from 'components/base/experience';
+import Portfolio from 'components/base/portfolio';
 
 export const metadata = {
   title: 'Portfolio',
 };
 
-const page = () => <Experience />;
+const page = () => <Portfolio />;
 
 export default page;

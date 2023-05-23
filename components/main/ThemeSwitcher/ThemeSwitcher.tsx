@@ -29,7 +29,7 @@ const ThemeSwitcher = () => {
       aria-label='auto'
       aria-live='polite'
       onClick={toggleThemeHandler}
-      className='absolute w-8 h-8 p-0 mr-10 transition duration-500 ease-in-out transform bg-transparent border-none rounded-full pointer-events-auto md:top-6 right-6 top-4 md:mt-7 aspect-square touch-manipulation outline-offset-8'
+      className='absolute w-8 h-8 p-0 mr-10 transition duration-500 ease-in-out transform bg-transparent border-none rounded-full pointer-events-auto md:top-6 md:right-6 -right-6 top-4 md:mt-7 aspect-square touch-manipulation outline-offset-8'
     >
       <SwitcherIcon />
     </button>
