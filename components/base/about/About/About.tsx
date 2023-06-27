@@ -4,8 +4,8 @@ const About = () => (
   <article className='space-y-7 mb-7'>
     <h1 className='text-[38px]'>About me</h1>
     <p>
-      Hello! I'm a Front-End Developer with 2 years of experience in developing
-      marketplaces and web apps using React, Next.js, and Redux. I am proficient
+      Hello! I'm a Front-End Developer with more than 2 years of experience in developing
+      web applications using React, Next.js, and Redux. I am proficient
       in all stages of interface component design and can deliver high-quality
       web-responsive applications. I’m looking for a remote job.
     </p>
