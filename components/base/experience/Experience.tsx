@@ -3,6 +3,25 @@ const Experience = () => (
   <div className='space-y-5 mb-7'>
     <h1 className='text-[38px]'>Experience</h1>
 
+		<article className='flex flex-col pb-6 md:flex-row'>
+			<div className='text-[14px] mb-5 md:w-[60%] md:pr-2 gap-y-1 flex flex-col'>
+				<h2 className='text-[24px] font-medium'>Upwork</h2>
+				<p className='text-neutral-600 dark:text-neutral-400'>
+					Global freelancing platform for remote work
+				</p>
+				<p className='font-medium'>Freelance Software Engineer</p>
+				<p>Mar 2023 - Present</p>
+			</div>
+			<div className='ml-5 space-y-4'>
+				<ul role='list' className='list-disc marker:text-neutral-400'>
+					<li>Working as a freelancer on the Upwork platform, specializing in React application development.</li>
+					<li>Established long-term working relationships with several clients, indicating high satisfaction and trust in my services.</li>
+					<li>Developing and maintaining user interfaces, ensuring high performance and accessibility.</li>
+					<li>Continuously improving my knowledge and skills by studying new technologies and development practices to remain a sought-after professional.</li>
+				</ul>
+			</div>
+    </article>
+
     <article className='flex flex-col mb-6 md:flex-row'>
       <div className='text-[14px] mb-5 md:w-[60%] md:pr-2 gap-y-1 flex flex-col'>
         <h2 className='text-[24px] font-medium'>MediaSoft</h2>
