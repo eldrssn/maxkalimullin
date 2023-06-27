@@ -13,8 +13,8 @@ const Home = () => (
     <h1 className='text-[38px] mb-7'>{name}</h1>
     <article className='mb-7'>
       Greetings! I am a highly skilled{' '}
-      <span className='font-bold'>Front-End Developer</span> with a 2-year track
-      record in developing marketplaces and web apps. I am proficient in React,
+      <span className='font-bold'>Front-End Developer</span> with more than 2-year track
+      record in developing web applications. I am proficient in React,
       Next.js, and Redux, with expertise in all stages of interface component
       design. I am dedicated to delivering high-quality, web-responsive
       applications while constantly learning and growing in the field.
