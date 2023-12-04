@@ -6,6 +6,9 @@ import plantStore from 'public/plants.jpg';
 import chess from 'public/chess.jpg';
 import promogroup from 'public/promogroup1.jpg';
 import keyboard from 'public/my_keyboard.jpg';
+import glasses from 'public/glasses-main.jpg';
+import inchapin from 'public/inchapic-main.jpg';
+import { IPortfolioItem } from 'types';
 
 export const name = 'Maxim Kalimullin';
 
@@ -73,7 +76,7 @@ export const skills = [
   'Adobe Photoshop',
 ];
 
-export const portfolio = [
+export const portfolio: IPortfolioItem[] = [
   {
     title: 'Cozy Plant Store | React, Tailwind CSS',
     description:
@@ -81,6 +84,22 @@ export const portfolio = [
     images: plantStore,
     github: 'https://github.com/eldrssn/plant-shop',
     link: 'https://plant-shop-patch.vercel.app/',
+  },
+  {
+    title: 'Landing page with parallax scroll | Next.js, Framer Motion',
+    description:
+      'Created a site with parallax scroll and animation using React, Next.js and Framer Motion',
+    images: glasses,
+    github: 'https://github.com/eldrssn/glasses-store',
+    link: 'https://glasses-store-rust.vercel.app/',
+  },
+  {
+    title: 'Real Estate presentation | Adaptive layout + Pixel Perfect',
+    description:
+      "Creating on Figma's layout a property presentation, with Adaptive layout and Pixel Perfect",
+    images: inchapin,
+    github: 'https://github.com/eldrssn/inchapin',
+    link: 'https://inchapin-blush.vercel.app/',
   },
   {
     title: 'Chess | React, SCSS',
