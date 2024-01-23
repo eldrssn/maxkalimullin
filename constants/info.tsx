@@ -8,6 +8,7 @@ import promogroup from 'public/promogroup1.jpg';
 import keyboard from 'public/my_keyboard.jpg';
 import glasses from 'public/glasses-main.jpg';
 import inchapin from 'public/inchapic-main.jpg';
+import airpods from 'public/apple-scroll-mock.jpg';
 import { IPortfolioItem } from 'types';
 
 export const name = 'Maxim Kalimullin';
@@ -86,12 +87,12 @@ export const portfolio: IPortfolioItem[] = [
     link: 'https://plant-shop-patch.vercel.app/',
   },
   {
-    title: 'Landing page with parallax scroll | Next.js, Framer Motion',
+    title: 'Scroll Trigger Parallax Effect | React, GSAP',
     description:
-      'Created a site with parallax scroll and animation using React, Next.js and Framer Motion',
-    images: glasses,
-    github: 'https://github.com/eldrssn/glasses-store',
-    link: 'https://glasses-store-rust.vercel.app/',
+      'Created a landing page with parallax scroll and animation using React and GSAP',
+    images: airpods,
+    github: 'https://github.com/eldrssn/airpods-scroll-trigger',
+    link: 'https://airpods-scroll-trigger.vercel.app/',
   },
   {
     title: 'Real Estate presentation | Adaptive layout + Pixel Perfect',
@@ -115,6 +116,14 @@ export const portfolio: IPortfolioItem[] = [
     images: promogroup,
     github: 'https://github.com/eldrssn/promogroup',
     link: 'https://eldrssn.github.io/promogroup/dist/index.html',
+  },
+  {
+    title: 'Landing page with parallax scroll | Next.js, Framer Motion',
+    description:
+      'Created a site with parallax scroll and animation using React, Next.js and Framer Motion',
+    images: glasses,
+    github: 'https://github.com/eldrssn/glasses-store',
+    link: 'https://glasses-store-rust.vercel.app/',
   },
   {
     title: 'Virtual keyboard | Vanilla JS',
