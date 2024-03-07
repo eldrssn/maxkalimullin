@@ -3,11 +3,16 @@ import { GithubIcon } from 'components/icons/GithubIcon';
 import { LinkedInIcon } from 'components/icons/LinkedInIcon';
 import { TelegramIcon } from 'components/icons/TelegramIcon';
 import plantStore from 'public/plants.jpg';
+import plantStoreCart from 'public/cart.png';
 import chess from 'public/chess.jpg';
 import promogroup from 'public/promogroup1.jpg';
-import keyboard from 'public/my_keyboard.jpg';
+import appleScroll from 'public/apple-scroll.jpg';
+import appleScrollGif from 'public/anim.gif';
 import glasses from 'public/glasses-main.jpg';
+import glassesGif from 'public/glasses.gif';
 import inchapin from 'public/inchapic-main.jpg';
+import hDates from 'public/h-dates.jpg';
+import hDatesGif from 'public/dates.gif';
 import { IPortfolioItem } from 'types';
 
 export const name = 'Maxim Kalimullin';
@@ -78,49 +83,58 @@ export const skills = [
 
 export const portfolio: IPortfolioItem[] = [
   {
-    title: 'Cozy Plant Store | React, Tailwind CSS',
+    title: 'Cozy Plant Store | Next.js, Tailwind CSS, MobX, MongoDB',
     description:
-      "Using React, Typescript, and Tailwind CSS, I've created an engaging and visually appealing platform for plant enthusiasts to explore",
-    images: plantStore,
-    github: 'https://github.com/eldrssn/plant-shop',
-    link: 'https://plant-shop-patch.vercel.app/',
+      'Featuring a welcoming home page, organized catalog, detailed product cards, and convenient shopping basket, the platform offers a user-friendly experience with attractive plant images and efficient navigation.',
+    images: [plantStore, plantStoreCart],
+    github: 'https://github.com/eldrssn/plant-shop-next',
+    link: 'https://plant-shop-next.vercel.app/',
   },
   {
-    title: 'Landing page with parallax scroll | Next.js, Framer Motion',
+    title: 'React + GSAP scroll triggered animation',
     description:
-      'Created a site with parallax scroll and animation using React, Next.js and Framer Motion',
-    images: glasses,
-    github: 'https://github.com/eldrssn/glasses-store',
-    link: 'https://glasses-store-rust.vercel.app/',
+      'The project is built using React, TypeScript, GSAP and the Locomotive Scroll library to control the scroll animation.',
+    images: [appleScroll, appleScrollGif],
+    github: 'https://github.com/eldrssn/airpods-scroll-trigger',
+    link: 'https://airpods-scroll-trigger.vercel.app/',
+  },
+  {
+    title: 'Interactive calendar | React, SCSS, GSAP and Swiper',
+    description:
+      'Showcasing historical events featuring GSAP animations for creative element transitions. The site allows users to explore key historical dates and events with a scrollable event block.',
+    images: [hDates, hDatesGif],
+    github: 'https://github.com/eldrssn/historical-dates',
+    link: 'https://historical-dates-indol.vercel.app/',
   },
   {
     title: 'Real Estate presentation | Adaptive layout + Pixel Perfect',
     description:
       "Creating on Figma's layout a property presentation, with Adaptive layout and Pixel Perfect",
-    images: inchapin,
+    images: [inchapin],
     github: 'https://github.com/eldrssn/inchapin',
     link: 'https://inchapin-blush.vercel.app/',
+  },
+  {
+    title: 'Landing page with parallax scroll | Next.js, Framer Motion',
+    description:
+      'Created a site with parallax scroll and animation using React, Next.js and Framer Motion',
+    images: [glasses, glassesGif],
+    github: 'https://github.com/eldrssn/glasses-store',
+    link: 'https://glasses-store-rust.vercel.app/',
   },
   {
     title: 'Chess | React, SCSS',
     description:
       'This is a game of chess for 2 people. Displays available moves and knocked down pieces.',
-    images: chess,
+    images: [chess],
     github: 'https://github.com/eldrssn/chess',
     link: 'https://chess-eldrssn.vercel.app/',
   },
   {
     title: 'Design Promogroup | Pug, SCSS',
     description: 'Personal multi-page website project for a design company',
-    images: promogroup,
+    images: [promogroup],
     github: 'https://github.com/eldrssn/promogroup',
     link: 'https://eldrssn.github.io/promogroup/dist/index.html',
-  },
-  {
-    title: 'Virtual keyboard | Vanilla JS',
-    description: 'Simple virtual keyboard written on Vanilla JS',
-    images: keyboard,
-    github: 'https://github.com/eldrssn/keyboard',
-    link: 'https://eldrssn.github.io/keyboard/',
   },
 ];

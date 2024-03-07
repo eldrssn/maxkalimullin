@@ -8,7 +8,7 @@ export type Props = {
 export interface IPortfolioItem {
   title: string;
   description: string;
-  images: StaticImageData;
+  images: StaticImageData[];
   github: string;
   link: string;
 }
