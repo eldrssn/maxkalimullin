@@ -26,7 +26,11 @@ export const PortfolioItem: FC<{ item: IPortfolioItem }> = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Link href={link} className='block relative w-full h-64 mb-4'>
+      <Link
+        href={link}
+        className='block relative w-full h-64 mb-4'
+        target='_black'
+      >
         {isHovered && imgNext ? (
           <Image
             src={imgNext}

@@ -13,6 +13,8 @@ import glassesGif from 'public/glasses.gif';
 import inchapin from 'public/inchapic-main.jpg';
 import hDates from 'public/h-dates.jpg';
 import hDatesGif from 'public/dates.gif';
+import ipd from 'public/ipd.jpg';
+import ipdGif from 'public/ipd.gif';
 import { IPortfolioItem } from 'types';
 
 export const name = 'Maxim Kalimullin';
@@ -98,6 +100,16 @@ export const portfolio: IPortfolioItem[] = [
     github: 'https://github.com/eldrssn/airpods-scroll-trigger',
     link: 'https://airpods-scroll-trigger.vercel.app/',
   },
+
+  {
+    title: 'Car detailing service website | GSAP, Vanilla JS, HTML, CSS',
+    description:
+      'Interactive Need For Speed-inspired interface, allowing users to effortlessly select and book a variety of services using sliders, with a price calculator for instant quotes on all kind of devices.',
+    images: [ipd, ipdGif],
+    github: 'https://github.com/eldrssn/ipd',
+    link: 'https://ipd-delta.vercel.app',
+  },
+
   {
     title: 'Interactive calendar | React, SCSS, GSAP and Swiper',
     description:

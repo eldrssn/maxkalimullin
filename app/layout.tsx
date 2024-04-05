@@ -32,7 +32,7 @@ const RootLayout: FC<Props> = ({ children }) => (
     <ServerThemeProvider attribute='class'>
       <html lang='en'>
         <body
-          className={`${robotoFlex.className} text-slate-950 dark:text-zinc-100/75 bg-zinc-100 dark:bg-slate-950 flex flex-col max-w-4xl mx-4 mt-8 mb-10 antialiased md:flex-row md:mt-20 lg:mt-32 lg:mx-auto`}
+          className={`${robotoFlex.className} text-slate-950 dark:text-zinc-100/75 bg-zinc-100 dark:bg-slate-950 flex flex-col max-w-4xl mx-4 mt-8 mb-10 antialiased md:flex-row md:max-h-full md:mt-20 lg:mt-32 lg:mx-auto`}
         >
           <Providers>
             <NavBar />
