@@ -2,9 +2,7 @@
 
 import { LayoutGroup } from 'framer-motion';
 
-import { navItems } from 'constants/navItems';
 import ThemeSwitcher from '../ThemeSwitcher';
-import NavItem from './NavItem';
 
 const NavBar = () => (
   <>
@@ -15,11 +13,7 @@ const NavBar = () => (
             className='relative flex flex-row items-start px-4 pb-0 md:flex-col md:px-0 fade md:overflow-auto scroll-pr-6 md:relative'
             id='nav'
           >
-            <div className='flex flex-row pr-10 mt-2 mb-2 space-x-0 md:flex-col md:mt-0'>
-              {Object.entries(navItems).map(([path, { name }]) => (
-                <NavItem key={path} path={path} name={name} />
-              ))}
-            </div>
+            <div className='flex flex-row pr-10 mt-2 mb-2 space-x-0 md:flex-col md:mt-0'></div>
           </nav>
         </LayoutGroup>
       </div>

@@ -40,10 +40,7 @@ export const contacts = [
     href: 'https://t.me/bdcptr',
     Icon: TelegramIcon,
   },
-  {
-    title: 'Download CV',
-    href: 'https://drive.google.com/file/d/1WcdySFOq8dpybtAEgHrx7uTEiIJtBnyl/view?usp=sharing',
-  },
+
   {
     title: '+7 (999) 221-64-89',
     href: 'tel:+79992216489',
